@@ -10,7 +10,7 @@ namespace BigSchool.Models
     {
         public int Id { get; set; }
 
-        public ApplicationUser Lecturer { get; set; }
+        public ApplicationUser Lecturer { get; set; } // chua biet phai lam gi voi cai nay
         [Required]
         public string LectuereId { get; set; }
         [Required]

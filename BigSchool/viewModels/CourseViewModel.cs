@@ -10,7 +10,7 @@ namespace BigSchool.ViewModels
     {
         private object p;
 
-        public CourseViewModel(object p)
+        public CourseViewModel(object p) //sad
         {
             this.p = p;
         }
